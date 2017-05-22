@@ -25,3 +25,7 @@ main {
   height: 50px;
   width: 50px;
 }
+
+header h1, h3 {
+  text-transform: uppercase;
+}
