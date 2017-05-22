@@ -12,12 +12,13 @@ body {
 header {
   display:block;
   margin: 0 auto;
-  height: 138px;
+  height: 172px;
   text-align: center;
 }
 
 main {
   display:block;
+  margin-top: 10px
 }
 
 /* header content styles */
@@ -28,4 +29,15 @@ main {
 
 header h1, h3 {
   text-transform: uppercase;
+}
+/* Figure section */
+
+.feature-image {
+  max-height: 320px;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.feature-image img {
+  max-width: 100%;
 }
