@@ -1,7 +1,7 @@
 /* Global CSS */
 * {
   box-sizing: border-box;
-  border: 1px solid red !important;
+  /*border: 1px solid red !important;*/
 }
 
 body {
@@ -34,8 +34,6 @@ header h1, h3 {
 /* Figure section */
 
 .feature-image {
-  max-height: 320px;
-  max-width: 320px;
   margin: 0 auto;
 }
 
