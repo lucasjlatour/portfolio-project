@@ -8,3 +8,11 @@ body {
   font-family: "Open Sans", Arial, Helvetica;
   color: #2d3c49;
 }
+
+header {
+  display:block;
+}
+
+main {
+  display:block;
+}
