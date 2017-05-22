@@ -3,3 +3,8 @@
   box-sizing: border-box;
   border: 1px solid red !important;
 }
+
+body {
+  font-family: "Open Sans", Arial, Helvetica;
+  color: #2d3c49;
+}
