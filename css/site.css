@@ -19,3 +19,9 @@ header {
 main {
   display:block;
 }
+
+/* header content styles */
+.udacity-logo {
+  height: 50px;
+  width: 50px;
+}
