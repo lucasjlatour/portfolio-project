@@ -41,3 +41,14 @@ header h1, h3 {
 .feature-image img {
   max-width: 100%;
 }
+
+/*Projects section*/
+
+article {
+  max-width: 100%;
+  text-align: center;
+}
+
+article img {
+  max-width: 100%;
+}
