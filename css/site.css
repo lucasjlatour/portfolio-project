@@ -103,7 +103,7 @@ article a {
   max-width: 807px;
   }
   .feature-image img {
-    max-width: 807px;
+    max-width: 100%;
   }
   .projectheader {
     text-align: left;
