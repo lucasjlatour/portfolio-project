@@ -9,9 +9,10 @@ body {
   color: #2d3c49;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-weight: normal;
 }
+
 header {
   padding-top: 7px;
   display:block;
@@ -29,11 +30,11 @@ main {
 
 /* header content styles */
 .udacity-logo {
-  height: 75px;
-  width: 75px;
+  height: 60px;
+  width: 60px;
 }
 
-header h1, h3 {
+header h1, h3, h4 {
   text-transform: uppercase;
   margin: 0;
 }
@@ -61,7 +62,7 @@ header h2 {
   margin: 0 auto;
 }
 
-.projectheader {
+.project-header {
   color: #7d97ad;
   width: 100%;
   display: block;
@@ -96,7 +97,12 @@ article a {
   .udacity-logo {
   float: left;
   }
-  header h1, h3 {
+
+  h1 {
+    font-size: 40px;
+  }
+
+  header h1, h3, h4 {
     float:right;
     width: 50%;
     text-align: right;
@@ -107,9 +113,15 @@ article a {
   .feature-image img {
     max-width: 100%;
   }
-  .projectheader {
+  .project-header {
     text-align: left;
-    padding-left: 12px
+    padding-left: 12px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+  }
+  .project-header h2 {
+    margin-top: 0;
+    margin-bottom: 0;
   }
   .projects {
     display: flex;
