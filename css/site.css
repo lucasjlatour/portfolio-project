@@ -102,14 +102,15 @@ article a {
 
 /* Footer */
 footer {
-    max-width: 90%;
-    text-align: center;
-    font-size: small;
-    margin-top: 26px;
-    margin-left: auto;
-    margin-right: auto;
-    border-top: 4px solid #7d97ad;
+  max-width: 90%;
+  text-align: center;
+  font-size: small;
+  margin-top: 26px;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 4px solid #7d97ad;
 }
+
 /* Responsive Styles that apply at break at 580px */
 @media screen and (min-width: 580px) {
   header {
