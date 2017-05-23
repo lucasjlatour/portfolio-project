@@ -10,6 +10,7 @@ body {
 }
 
 header {
+  padding-top: 20px;
   display:block;
   margin: 0 auto;
   height: 172px;
@@ -30,6 +31,8 @@ main {
 
 header h1, h3 {
   text-transform: uppercase;
+  font-weight: normal;
+  margin: 0;
 }
 /* Figure section */
 
@@ -46,10 +49,25 @@ header h1, h3 {
   text-align: center;
 }
 
+.projects h2:first-child {
+  color: #7d97ad;
+}
+
 article {
   max-width: 100%;
 }
 
 article img {
-  max-width: 100%;
+  max-width: 250px;
+}
+
+article h2 {
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+article a {
+  font-size: .8em;
+  text-decoration: none;
+  color: #2d3c49;
 }
