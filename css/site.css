@@ -1,7 +1,6 @@
 /* Global CSS */
 * {
   box-sizing: border-box;
-  /*border: 1px solid red !important;*/
 }
 
 body {
@@ -14,7 +13,7 @@ h1, h2, h3, h4 {
 }
 
 header {
-  padding-top: 7px;
+  padding-top: 20px;
   display:block;
   margin: 0 auto;
   height: 172px;
@@ -25,7 +24,6 @@ header {
 
 main {
   display:block;
-  margin-top: 10px
 }
 
 /* header content styles */
@@ -36,19 +34,23 @@ main {
 
 header h1, h3, h4 {
   text-transform: uppercase;
-  margin: 0;
 }
 
 header h1 {
   font-size: 2em;
+  margin-top: 16px;
+  margin-bottom: 0;
 }
-header h2 {
-  font-size: 1em;
+header h4 {
+  margin-top: 0px;
 }
 
 /* Figure section */
 .feature-image {
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 26px;
+  margin-bottom: 0px;
   text-align: center;
 }
 
@@ -92,15 +94,16 @@ article a {
 /*Break at 580px */
 @media screen and (min-width: 580px) {
   header {
-    padding-top: 48px;
-    height: 128px;
+    padding-top: 34px;
+    height: 124px;
   }
   .udacity-logo {
   float: left;
   }
 
-  h1 {
-    font-size: 40px;
+  header h1 {
+    font-size: 32px;
+    margin-top: 0;
   }
 
   header h1, h3, h4 {
@@ -108,8 +111,14 @@ article a {
     width: 50%;
     text-align: right;
   }
+  header h4 {
+    margin-top: 8px;
+  }
   header, .feature-image, .projects {
   max-width: 807px;
+  }
+  .feature-image {
+    margin-top: 26px;
   }
   .feature-image img {
     max-width: 100%;
