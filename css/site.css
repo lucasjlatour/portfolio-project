@@ -58,8 +58,10 @@ header h2 {
   text-align: center;
 }
 
-.projects h2:first-child {
+.projectheader {
   color: #7d97ad;
+  width: 100%;
+  display: block;
 }
 
 article {
@@ -83,7 +85,7 @@ article a {
 
 /* Responsive Styles */
 
-/*Break at 580 */
+/*Break at 580px */
 @media screen and (min-width: 580px) {
   header {
     padding-top: 53px;
@@ -101,5 +103,9 @@ article a {
   }
   .feature-image img {
     max-width: 807px;
+  }
+  .projectheader {
+    text-align: left;
+    padding-left: 10px
   }
 }
