@@ -9,6 +9,9 @@ body {
   color: #2d3c49;
 }
 
+h1, h2, h3 {
+    font-weight: normal;
+}
 header {
   padding-top: 7px;
   display:block;
@@ -32,7 +35,6 @@ main {
 
 header h1, h3 {
   text-transform: uppercase;
-  font-weight: normal;
   margin: 0;
 }
 
