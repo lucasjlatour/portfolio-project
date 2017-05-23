@@ -113,4 +113,7 @@ article a {
     display: flex;
     flex-wrap: wrap;
   }
+  .projects article:nth-of-type(1), .projects article:nth-of-type(2) {
+    margin-right: 28.5px;
+  }
 }
