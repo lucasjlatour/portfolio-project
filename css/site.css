@@ -1,3 +1,12 @@
+/*
+Content is divided into sections by comments.
+Initial Global Styles are in Global CSS.
+Site Header initial styles are in Header
+Featured image on page is in Feature Image section
+Articles with projects are in the Projects Section
+Responsive syles are in the last section and they apply to all previous sections.
+*/
+
 /* Global CSS */
 * {
   box-sizing: border-box;
@@ -26,7 +35,7 @@ main {
   display:block;
 }
 
-/* header content styles */
+/* Header */
 .udacity-logo {
   height: 60px;
   width: 60px;
@@ -46,7 +55,7 @@ header h4 {
   margin-top: 0px;
 }
 
-/* Figure section */
+/* Featured Image */
 .feature-image {
   margin-left: auto;
   margin-right: auto;
@@ -59,7 +68,7 @@ header h4 {
   max-width: 90%;
 }
 
-/*Projects section*/
+/* Projects */
 .projects {
   text-align: center;
   margin: 0 auto;
@@ -90,9 +99,7 @@ article a {
   color: #2d3c49;
 }
 
-/* Responsive Styles */
-
-/*Break at 580px */
+/* Responsive Styles that apply at break at 580px */
 @media screen and (min-width: 580px) {
   header {
     padding-top: 34px;
