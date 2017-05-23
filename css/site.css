@@ -92,7 +92,8 @@ article a {
 /*Break at 580px */
 @media screen and (min-width: 580px) {
   header {
-    padding-top: 53px;
+    padding-top: 48px;
+    height: 128px;
   }
   .udacity-logo {
   float: left;
