@@ -82,6 +82,7 @@ header h4 {
 
 article {
   max-width: 100%;
+  margin-top: 26px;
 }
 
 article img {
@@ -99,6 +100,16 @@ article a {
   color: #2d3c49;
 }
 
+/* Footer */
+footer {
+    max-width: 90%;
+    text-align: center;
+    font-size: small;
+    margin-top: 26px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 4px solid #7d97ad;
+}
 /* Responsive Styles that apply at break at 580px */
 @media screen and (min-width: 580px) {
   header {
@@ -141,12 +152,11 @@ article a {
     text-align: left;
     padding-left: 12px;
     margin-top: 32px;
-    margin-bottom: 16px;
   }
 
   .project-header h2 {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: -8px;
   }
 
   .projects {
@@ -156,5 +166,9 @@ article a {
 
   .projects article:nth-of-type(1), .projects article:nth-of-type(2) {
     margin-right: 28.5px;
+  }
+
+  footer {
+    max-width: 807px;
   }
 }
