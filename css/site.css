@@ -18,13 +18,17 @@ body {
   color: #2d3c49;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     font-weight: normal;
+    text-transform: uppercase;
 }
 
 header {
   padding-top: 20px;
-  display:block;
+  display: block;
   margin: 0 auto;
   height: 172px;
   max-width: 90%;
@@ -33,17 +37,13 @@ header {
 }
 
 main {
-  display:block;
+  display: block;
 }
 
 /* Header */
 .udacity-logo {
   height: 60px;
   width: 60px;
-}
-
-header h1, h3, h4 {
-  text-transform: uppercase;
 }
 
 header h1 {
@@ -53,16 +53,12 @@ header h1 {
 }
 
 header h4 {
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 /* Featured Image */
 .feature-image {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 26px;
-  margin-bottom: 0px;
-  text-align: center;
+  margin: 26px auto 0 auto;
 }
 
 .feature-image img {
@@ -81,6 +77,10 @@ header h4 {
   display: block;
 }
 
+.project-header h2 {
+  text-transform: none;
+}
+
 article {
   max-width: 100%;
   margin-top: 26px;
@@ -92,11 +92,11 @@ article img {
 
 article h2 {
   text-transform: uppercase;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 article a {
-  font-size: .8em;
+  font-size: 0.8em;
   text-decoration: none;
   color: #2d3c49;
 }
@@ -106,9 +106,7 @@ footer {
   max-width: 90%;
   text-align: center;
   font-size: small;
-  margin-top: 26px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 26px auto 0 auto;
   border-top: 4px solid #7d97ad;
 }
 
@@ -128,8 +126,10 @@ footer {
     margin-top: 0;
   }
 
-  header h1, h3, h4 {
-    float:right;
+  header h1,
+  header h3,
+  header h4 {
+    float: right;
     width: 50%;
     text-align: right;
   }
@@ -138,7 +138,9 @@ footer {
     margin-top: 8px;
   }
 
-  header, .feature-image, .projects {
+  header,
+  .feature-image,
+  .projects {
   max-width: 807px;
   }
 
@@ -166,7 +168,8 @@ footer {
     flex-wrap: wrap;
   }
 
-  .projects article:nth-of-type(1), .projects article:nth-of-type(2) {
+  .projects article:nth-of-type(1),
+  .projects article:nth-of-type(2) {
     margin-right: 28.5px;
   }
 
