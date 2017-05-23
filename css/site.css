@@ -96,4 +96,10 @@ article a {
     width: 50%;
     text-align: right;
   }
+  header, .feature-image, .projects {
+  max-width: 807px;
+  }
+  .feature-image img {
+    max-width: 807px;
+  }
 }
